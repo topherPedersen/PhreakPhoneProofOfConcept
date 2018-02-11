@@ -44,6 +44,7 @@
         android:layout_gravity="bottom">
 
         <Button
+            android:onClick="launchBlockNumberActivity"
             android:id="@+id/launch_block_number_activity_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

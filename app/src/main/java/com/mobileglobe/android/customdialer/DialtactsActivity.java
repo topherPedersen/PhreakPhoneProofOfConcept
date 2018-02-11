@@ -1137,4 +1137,9 @@ public class DialtactsActivity extends TransactionSafeActivity implements View.O
         return FloatingActionButtonController.ALIGN_END;
     }
 
+    public void launchBlockNumberActivity(View v) {
+        Intent i = new Intent(this, BlockNumberActivity.class);
+        startActivity(i);
+    }
+
 }

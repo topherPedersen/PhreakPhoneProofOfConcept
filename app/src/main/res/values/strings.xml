@@ -899,7 +899,6 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
     <string name="dialog_voicemail_not_ready_message">To set up voicemail, go to Menu &gt; Settings.</string>
 
 
-
     <!-- Application name used in Settings/Apps. Default label for activities
      that don't specify a label. -->
     <string name="applicationLabel">Danew Dialer</string>
@@ -941,14 +940,14 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
 
     <!-- Text for snackbar to undo blocking a number. [CHAR LIMIT=64] -->
     <string name="snackbar_number_blocked">
-        <xliff:g id="number" example="(555) 555-5555">%1$s</xliff:g> blocked</string>
+        <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> blocked</string>
 
     <!-- Label for action to unblock a number [CHAR LIMIT=48]-->
     <string name="action_unblock_number">Unblock number</string>
 
     <!-- Text for snackbar to undo unblocking a number. [CHAR LIMIT=64] -->
     <string name="snackbar_number_unblocked">
-        <xliff:g id="number" example="(555) 555-5555">%1$s</xliff:g>
+        <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g>
         unblocked</string>
 
     <!-- Text for undo button in snackbar for blocking/unblocking number. [CHAR LIMIT=10] -->
@@ -1337,10 +1336,10 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
     <string name="payphone">Payphone</string>
 
     <!-- A nicely formatted call duration displayed when viewing call details for duration less than 1 minute. For example "28 sec" -->
-    <string name="callDetailsShortDurationFormat"><xliff:g id="seconds" example="28">%s</xliff:g> sec</string>
+    <string name="callDetailsShortDurationFormat"><xliff:g example="28" id="seconds">%s</xliff:g> sec</string>
 
     <!-- A nicely formatted call duration displayed when viewing call details. For example "42 min 28 sec" -->
-    <string name="callDetailsDurationFormat"><xliff:g id="minutes" example="42">%s</xliff:g> min <xliff:g id="seconds" example="28">%s</xliff:g> sec</string>
+    <string name="callDetailsDurationFormat"><xliff:g example="42" id="minutes">%s</xliff:g> min <xliff:g example="28" id="seconds">%s</xliff:g> sec</string>
 
     <!-- The string 'Today'. This value is used in the voicemailCallLogDateTimeFormat rather than an
          explicit date string, e.g. Jul 25, 2014, in the event that a voicemail was created on the
@@ -1349,19 +1348,19 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
 
     <!-- A format string used for displaying the date and time for a voicemail call log. For example: Jul 25, 2014 at 2:49 PM
          The date will be replaced by 'Today' for voicemails created on the current day. For example: Today at 2:49 PM -->
-    <string name="voicemailCallLogDateTimeFormat"><xliff:g id="date" example="Jul 25, 2014">%1$s</xliff:g> at <xliff:g id="time" example="2:49 PM">%2$s</xliff:g></string>
+    <string name="voicemailCallLogDateTimeFormat"><xliff:g example="Jul 25, 2014" id="date">%1$s</xliff:g> at <xliff:g example="2:49 PM" id="time">%2$s</xliff:g></string>
 
     <!-- Format for duration of voicemails which are displayed when viewing voicemail logs. For example "01:22" -->
-    <string name="voicemailDurationFormat"><xliff:g id="minutes" example="10">%1$02d</xliff:g>:<xliff:g id="seconds" example="20">%2$02d</xliff:g></string>
+    <string name="voicemailDurationFormat"><xliff:g example="10" id="minutes">%1$02d</xliff:g>:<xliff:g example="20" id="seconds">%2$02d</xliff:g></string>
 
     <!-- A format string used for displaying the date, time and duration for a voicemail call log. For example: Jul 25, 2014 at 2:49 PM • 00:34 -->
-    <string name="voicemailCallLogDateTimeFormatWithDuration"><xliff:g id="dateAndTime" example="Jul 25, 2014 at 2:49PM">%1$s</xliff:g> \u2022 <xliff:g id="duration" example="01:22">%2$s</xliff:g></string>
+    <string name="voicemailCallLogDateTimeFormatWithDuration"><xliff:g example="Jul 25, 2014 at 2:49PM" id="dateAndTime">%1$s</xliff:g> \u2022 <xliff:g example="01:22" id="duration">%2$s</xliff:g></string>
 
     <!-- Dialog message which is shown when the user tries to make a phone call
          to prohibited phone numbers [CHAR LIMIT=NONE] -->
     <string name="dialog_phone_call_prohibited_message" msgid="4313552620858880999">Can\'t call this number</string>
 
-        <!-- Message that appears in the favorites tab of the Phone app when the contact list has not fully loaded yet (below the favorite and frequent contacts) [CHAR LIMIT=20] -->
+    <!-- Message that appears in the favorites tab of the Phone app when the contact list has not fully loaded yet (below the favorite and frequent contacts) [CHAR LIMIT=20] -->
     <string name="contact_list_loading">Loading\u2026</string>
 
     <!-- The title of a dialog that displays the IMEI of the phone -->
@@ -1456,7 +1455,7 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
 
     <!-- Confirmation dialog title for blocking a number. [CHAR LIMIT=NONE] -->
     <string name="block_number_confirmation_title">Block
-        <xliff:g id="number" example="(555) 555-5555">%1$s</xliff:g>?</string>
+        <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g>?</string>
 
     <!-- Confirmation dialog message for blocking a number with visual voicemail active.
          [CHAR LIMIT=NONE] -->
@@ -1481,7 +1480,7 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
 
     <!-- Confirmation dialog for unblocking a number. [CHAR LIMIT=NONE] -->
     <string name="unblock_number_confirmation_title">Unblock
-        <xliff:g id="number" example="(555) 555-5555">%1$s</xliff:g>?</string>
+        <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g>?</string>
 
     <!-- Unblock number alert dialog button [CHAR LIMIT=32] -->
     <string name="unblock_number_ok">UNBLOCK</string>
@@ -1568,60 +1567,60 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
     <!-- Button text for the button displayed underneath an entry in the call log, which when
          tapped triggers a return call to the named user. [CHAR LIMIT=30] -->
     <string name="call_log_action_call">
-        Call <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
+        Call <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
     </string>
 
     <!-- String describing an incoming missed call entry in the call log.
          Note: AccessibilityServices uses this attribute to announce what the view represents.
          [CHAR LIMIT=NONE] -->
-    <string name="description_incoming_missed_call">Missed call from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>, <xliff:g id="typeOrLocation" example="Mobile">^2</xliff:g>, <xliff:g id="timeOfCall" example="2 min ago">^3</xliff:g>, <xliff:g id="phoneAccount" example="on SIM 1">^4</xliff:g>.</string>
+    <string name="description_incoming_missed_call">Missed call from <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>, <xliff:g example="Mobile" id="typeOrLocation">^2</xliff:g>, <xliff:g example="2 min ago" id="timeOfCall">^3</xliff:g>, <xliff:g example="on SIM 1" id="phoneAccount">^4</xliff:g>.</string>
 
     <!-- String describing an incoming answered call entry in the call log.
          Note: AccessibilityServices uses this attribute to announce what the view represents.
          [CHAR LIMIT=NONE] -->
-    <string name="description_incoming_answered_call">Answered call from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>, <xliff:g id="typeOrLocation" example="Mobile">^2</xliff:g>, <xliff:g id="timeOfCall" example="2 min ago">^3</xliff:g>, <xliff:g id="phoneAccount" example="on SIM 1">^4</xliff:g>.</string>
+    <string name="description_incoming_answered_call">Answered call from <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>, <xliff:g example="Mobile" id="typeOrLocation">^2</xliff:g>, <xliff:g example="2 min ago" id="timeOfCall">^3</xliff:g>, <xliff:g example="on SIM 1" id="phoneAccount">^4</xliff:g>.</string>
 
     <!-- String describing an "unread" voicemail entry in the voicemails tab.
          Note: AccessibilityServices use this attribute to announce what the view represents.
          [CHAR LIMIT=NONE] -->
-    <string name="description_unread_voicemail">Unread voicemail from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>, <xliff:g id="typeOrLocation" example="Mobile">^2</xliff:g>, <xliff:g id="timeOfCall" example="2 min ago">^3</xliff:g>, <xliff:g id="phoneAccount" example="on SIM 1">^4</xliff:g>.</string>
+    <string name="description_unread_voicemail">Unread voicemail from <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>, <xliff:g example="Mobile" id="typeOrLocation">^2</xliff:g>, <xliff:g example="2 min ago" id="timeOfCall">^3</xliff:g>, <xliff:g example="on SIM 1" id="phoneAccount">^4</xliff:g>.</string>
 
     <!-- String describing a "read" voicemail entry in the voicemails tab.
      Note: AccessibilityServices use this attribute to announce what the view represents.
      [CHAR LIMIT=NONE] -->
-    <string name="description_read_voicemail">Voicemail from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>, <xliff:g id="typeOrLocation" example="Mobile">^2</xliff:g>, <xliff:g id="timeOfCall" example="2 min ago">^3</xliff:g>, <xliff:g id="phoneAccount" example="on SIM 1">^4</xliff:g>.</string>
+    <string name="description_read_voicemail">Voicemail from <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>, <xliff:g example="Mobile" id="typeOrLocation">^2</xliff:g>, <xliff:g example="2 min ago" id="timeOfCall">^3</xliff:g>, <xliff:g example="on SIM 1" id="phoneAccount">^4</xliff:g>.</string>
 
     <!-- String describing an outgoing call entry in the call log.
          Note: AccessibilityServices uses this attribute to announce what the view represents.
          [CHAR LIMIT=NONE] -->
-    <string name="description_outgoing_call">Call to <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>, <xliff:g id="typeOrLocation" example="Mobile">^2</xliff:g>, <xliff:g id="timeOfCall" example="2 min ago">^3</xliff:g>, <xliff:g id="phoneAccount" example="on SIM 1">^4</xliff:g>.</string>
+    <string name="description_outgoing_call">Call to <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>, <xliff:g example="Mobile" id="typeOrLocation">^2</xliff:g>, <xliff:g example="2 min ago" id="timeOfCall">^3</xliff:g>, <xliff:g example="on SIM 1" id="phoneAccount">^4</xliff:g>.</string>
 
     <!-- String describing the phone account the call was made on or to. This string will be used
          in description_incoming_missed_call, description_incoming_answered_call, and
          description_outgoing_call.
          Note: AccessibilityServices uses this attribute to announce what the view represents.
          [CHAR LIMIT=NONE] -->
-    <string name="description_phone_account">on <xliff:g id="phoneAccount" example="SIM 1">^1</xliff:g></string>
+    <string name="description_phone_account">on <xliff:g example="SIM 1" id="phoneAccount">^1</xliff:g></string>
 
     <!-- String describing the secondary line number the call was received via.
          Note: AccessibilityServices use this attribute to announce what the view represents.
          [CHAR LIMIT=NONE]-->
-    <string name="description_via_number">via <xliff:g id="number" example="(555) 555-5555">%1$s</xliff:g></string>
+    <string name="description_via_number">via <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g></string>
 
     <!-- TextView text item showing the secondary line number the call was received via.
          [CHAR LIMIT=NONE]-->
-    <string name="call_log_via_number">via <xliff:g id="number" example="(555) 555-5555">%1$s</xliff:g></string>
+    <string name="call_log_via_number">via <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g></string>
 
     <!-- String describing the PhoneAccount and via number that a call was received on, if both are
          visible.
          Note: AccessibilityServices use this attribute to announce what the view represents.
          [CHAR LIMIT=NONE]-->
-    <string name="description_via_number_phone_account">on <xliff:g id="phoneAccount" example="SIM 1">%1$s</xliff:g>, via <xliff:g id="number" example="(555) 555-5555">%2$s</xliff:g></string>
+    <string name="description_via_number_phone_account">on <xliff:g example="SIM 1" id="phoneAccount">%1$s</xliff:g>, via <xliff:g example="(555) 555-5555" id="number">%2$s</xliff:g></string>
 
     <!-- The order of the PhoneAccount and via number that a call was received on,
          if both are visible.
          [CHAR LIMIT=NONE]-->
-    <string name="call_log_via_number_phone_account"><xliff:g id="phoneAccount" example="SIM 1">%1$s</xliff:g> via <xliff:g id="number" example="(555) 555-5555">%2$s</xliff:g></string>
+    <string name="call_log_via_number_phone_account"><xliff:g example="SIM 1" id="phoneAccount">%1$s</xliff:g> via <xliff:g example="(555) 555-5555" id="number">%2$s</xliff:g></string>
 
     <!-- String describing the phone icon on a call log list item. When tapped, it will place a
          call to the number represented by that call log entry. [CHAR LIMIT=NONE]-->
@@ -1632,7 +1631,7 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
     <string name="description_call_action">
-        Call <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
+        Call <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
     </string>
 
     <!-- String describing the "video call" action for an entry in the call log.  The video call
@@ -1640,7 +1639,7 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
     <string name="description_video_call_action">
-        Video call <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>.
+        Video call <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>.
     </string>
 
     <!-- String describing the "listen" action for an entry in the call log.  The listen
@@ -1649,21 +1648,21 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
     <string name="description_voicemail_action">
-        Listen to voicemail from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
+        Listen to voicemail from <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
     </string>
 
     <!-- String describing the "play voicemail" action for an entry in the call log.
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
     <string name="description_voicemail_play">
-        Play voicemail from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
+        Play voicemail from <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
     </string>
 
     <!-- String describing the "pause voicemail" action for an entry in the call log.
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
     <string name="description_voicemail_pause">
-        Pause voicemail from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
+        Pause voicemail from <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
     </string>
 
 
@@ -1671,7 +1670,7 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
     <string name="description_voicemail_delete">
-        Delete voicemail from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
+        Delete voicemail from <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
     </string>
 
     <!-- String describing the number of new voicemails, displayed as a number badge on a tab.
@@ -1685,14 +1684,14 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
     <!-- Description for the "create new contact" action for an entry in the call log. This action
          opens a screen for creating a new contact for this name or number. [CHAR LIMIT=NONE] -->
     <string name="description_create_new_contact_action">
-        Create contact for <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
+        Create contact for <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
     </string>
 
     <!-- Description for the "add to existing contact" action for an entry in the call log. This
          action opens a screen for adding this name or number to an existing contact.
          [CHAR LIMIT=NONE] -->
     <string name="description_add_to_existing_contact_action">
-        Add <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g> to existing contact
+        Add <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g> to existing contact
     </string>
 
     <!-- String describing the "details" action for an entry in the call log.  The details action
@@ -1700,7 +1699,7 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
          and from the specified number associated with the call log entry.
          [CHAR LIMIT=NONE] -->
     <string name="description_details_action">
-        Call details for <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
+        Call details for <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
     </string>
 
     <!-- Toast message which appears when a call log entry is deleted.
@@ -1870,12 +1869,12 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
 
     <!-- Error message shown when user tries to add invalid number to the block list.
         [CHAR LIMIT=64] -->
-    <string name="invalidNumber"><xliff:g id="number" example="(555) 555-5555">%1$s</xliff:g>
+    <string name="invalidNumber"><xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g>
         is invalid.</string>
 
     <!-- Error message shown when user tries to add a number to the block list that was already
         blocked. [CHAR LIMIT=64] -->
-    <string name="alreadyBlocked"><xliff:g id="number" example="(555) 555-5555">%1$s</xliff:g>
+    <string name="alreadyBlocked"><xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g>
         is already blocked.</string>
 
     <!-- Title of notification telling the user that call blocking has been temporarily disabled.
@@ -1935,7 +1934,6 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
 
     <!-- Accessibility announcement to indicate which call is active -->
     <string name="accessibility_call_is_active"><xliff:g id="nameOrNumber">^1</xliff:g> is active</string>
-
 
 
     <string name="contacts_file_provider_authority">com.android.contacts.files</string>
